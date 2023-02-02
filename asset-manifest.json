@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.37a62e6c.css",
-    "main.js": "/static/js/main.60a39bb1.js",
+    "main.js": "/static/js/main.b1f88f9d.js",
     "static/media/hero.png": "/static/media/hero.3607dd19d8fb1183ef23.png",
     "static/media/Airtable.png": "/static/media/Airtable.86f6c670267757720a5e.png",
     "static/media/orbitz.png": "/static/media/orbitz.cd302695a575e05a22b7.png",
     "static/media/paytm_Mall1.png": "/static/media/paytm_Mall1.bc44ef3954f5f79c7b99.png",
+    "static/media/Bipin_Kumar_Resume.pdf": "/static/media/Bipin_Kumar_Resume.16791fcf4f8106fc7201.pdf",
     "static/media/geekbuying.png": "/static/media/geekbuying.edc1da94f872c074af3f.png",
     "static/media/mail.png": "/static/media/mail.f1592eb5e2bcf3a85066.png",
     "static/media/Bipin.png": "/static/media/Bipin.0c2d2042bd679038fc3a.png",
     "index.html": "/index.html",
     "main.37a62e6c.css.map": "/static/css/main.37a62e6c.css.map",
-    "main.60a39bb1.js.map": "/static/js/main.60a39bb1.js.map"
+    "main.b1f88f9d.js.map": "/static/js/main.b1f88f9d.js.map"
   },
   "entrypoints": [
     "static/css/main.37a62e6c.css",
-    "static/js/main.60a39bb1.js"
+    "static/js/main.b1f88f9d.js"
   ]
 }
