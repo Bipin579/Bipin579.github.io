@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.37a62e6c.css","mappings":"4GAGA,EACE,uBACF","sources":["App.css"],"sourcesContent":["@import url(\"https://fonts.googleapis.com/css2?family=Philosopher&family=Radio+Canada:wght@300&display=swap\");\n\n\n*{\n  font-family: \"Philosopher\";\n}\n\n\n"],"names":[],"sourceRoot":""}
