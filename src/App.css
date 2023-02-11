@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Philosopher&family=Radio+Canada:wght@300&display=swap");
+
+
+*{
+  font-family: "Philosopher";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text {
+  /* position: absolute; */
+  /* top: 50%;  */
+  /* right: 50%; */
+  /* transform: translate(50%,-50%); */
+  text-transform: uppercase;
+  font-family: arial rounded MT;
+  /* font-size: 2em; */
+  /* font-weight: 700; */
+  color: #150327;
+  text-shadow: 1px 1px 1px #5ff6ff,
+      1px 2px 1px #95c1e8,
+      1px 3px 1px #66a8e2,
+     -1px  3px 2px #70b1eb,
+     -1px -1px 1px #60a0d3,
+      2px -1px 2px #65a4d8,
+  1px 7px 4px rgba(0,9,35,0.4),
+  1px 9px 10px rgba(0,64,255,0.2),
+  1px 9px 35px rgba(0,64,255,0.2),
+  1px 9px 60px rgba(0,64,255,0.4);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text2 {
+  color: darkgrey;
+  white-space: nowrap;
+  /* position: absolute; */
+  /* top: 50%;
+  left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  font-size: 3em;
+  /* font-family: sans-serif; */
+  letter-spacing: 0.1em;
+  transition: 0.3s;
+  text-shadow: 1px 1px 0 grey, 1px 2px 0 grey, 1px 3px 0 grey, 1px 4px 0 grey,
+    1px 5px 0 grey, 1px 6px 0 grey, 1px 7px 0 grey, 1px 8px 0 grey,
+    5px 13px 15px black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text2:hover {
+  transition: 0.3s;
+  /* transform: scale(1.1)translate(-50%, -50%); */
+  text-shadow: 1px -1px 0 grey, 1px -2px 0 grey, 1px -3px 0 grey,
+    1px -4px 0 grey, 1px -5px 0 grey, 1px -6px 0 grey, 1px -7px 0 grey,
+    1px -8px 0 grey, 5px -13px 15px black, 5px -13px 25px #808080;
 }
