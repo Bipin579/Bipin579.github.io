@@ -33,7 +33,7 @@ const Projects = () => {
           <GridItem
             transition="all .2s ease-in-out"
             display={"flex"}
-            flexDir={{sm:"row",md:"row",lg:"row"}}
+            flexDir={{ sm: "row", md: "row", lg: "row" }}
             _hover={{ transform: "scale(0.95)" }}
             boxShadow="0px 50px 100px -20px rgba(50, 50, 93, 0.25), 0px 30px 60px -30px rgba(0, 0, 0, 0.3), inset 0px -2px 6px 0px rgba(10, 37, 64, 0.35)"
             p={"1%"}
@@ -44,25 +44,53 @@ const Projects = () => {
               src={orbitz}
               alt="orbitz"
               objectFit="scale-down"
-              w={{base:"30%",md:"50%"}}
+              w={{ base: "30%", md: "50%" }}
               rounded={"md"}
             />
-            <Box pl="2%" >
-              <Heading fontSize={{base:"sm",sm:"md",md:"lg",lg:"xl"}} color="white">Orbitz.com (clone) :-</Heading>
-              
+            <Box pl="2%">
+              <Heading
+                fontSize={{ base: "sm", sm: "md", md: "lg", lg: "xl" }}
+                color="white"
+              >
+                Orbitz.com (clone) :-
+              </Heading>
+
               <Box py="1%">
-                <Text fontWeight={"bold"} fontSize={{base:"xs",sm:"sm",md:"md",lg:"lg"}} textAlign="start" textColor={"lightgrey"}>
+                <Text
+                  fontWeight={"bold"}
+                  fontSize={{ base: "xs", sm: "sm", md: "md", lg: "lg" }}
+                  textAlign="start"
+                  textColor={"lightgrey"}
+                >
                   Orbitz is an online travel agency, OTA, or travel booking
                   platform. You can use the Orbitz website or app to search for
                   travel and compare availability and pricing.
                 </Text>
               </Box>
-              <Box py="1%" color={"whatsapp.100"} display="flex" gap="1%" alignItems={"center"}>
+              <Box
+                py="1%"
+                color={"whatsapp.100"}
+                display="flex"
+                gap="1%"
+                alignItems={"center"}
+              >
                 <Text>TECHSTACK'S :- </Text>
-                <Image src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png" w={{base:"5%" , md:"8%"}}/>
-                <Image src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" w={{base:"5%" , md:"8%"}}/>
-                <Image src="https://cdn-icons-png.flaticon.com/128/4726/4726005.png" w={{base:"5%" , md:"8%"}}/>
-                <Image src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/154/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png" w={{base:"5%" , md:"8%"}}/>
+                <Image
+                  src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png"
+                  w={{ base: "5%", md: "8%" }}
+                />
+                <Image
+                  src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png"
+                  w={{ base: "5%", md: "8%" }}
+                />
+                <Image
+                  src="https://cdn-icons-png.flaticon.com/128/4726/4726005.png"
+                  w={{ base: "5%", md: "8%" }}
+                />
+                <Image
+                  src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/154/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
+                  w={{ base: "5%", md: "8%" }}
+                />
               </Box>
               <Box
                 display={"flex"}
@@ -73,15 +101,29 @@ const Projects = () => {
                 width="40%"
               >
                 <Box cursor={"pointer"} rounded="90%">
-                  <Link href="https://gilded-dragon-38bf52.netlify.app/" target={"_blank"}>
-                    <Button bg={"none"} _hover={{ bg: "none" }} className="text">
+                  <Link
+                    href="https://gilded-dragon-38bf52.netlify.app/"
+                    target={"_blank"}
+                  >
+                    <Button
+                      bg={"none"}
+                      _hover={{ bg: "none" }}
+                      className="text"
+                    >
                       Live Link
                     </Button>
                   </Link>
                 </Box>
                 <Box cursor={"pointer"} rounded="50%">
-                  <Link href="https://github.com/Bipin579/deeply-oven-5153" target={"_blank"}>
-                    <Button bg={"none"} _hover={{ bg: "none" }} className="text">
+                  <Link
+                    href="https://github.com/Bipin579/deeply-oven-5153"
+                    target={"_blank"}
+                  >
+                    <Button
+                      bg={"none"}
+                      _hover={{ bg: "none" }}
+                      className="text"
+                    >
                       Github
                     </Button>
                   </Link>
@@ -93,7 +135,7 @@ const Projects = () => {
           <GridItem
             transition="all .2s ease-in-out"
             display={"flex"}
-            flexDir={{sm:"row",md:"row",lg:"row"}}
+            flexDir={{ sm: "row", md: "row", lg: "row" }}
             _hover={{ transform: "scale(0.95)" }}
             boxShadow="0px 50px 100px -20px rgba(50, 50, 93, 0.25), 0px 30px 60px -30px rgba(0, 0, 0, 0.3), inset 0px -2px 6px 0px rgba(10, 37, 64, 0.35)"
             p={"1%"}
@@ -104,24 +146,53 @@ const Projects = () => {
               src={geekbuying}
               alt="orbitz"
               objectFit="scale-down"
-              w={{base:"30%",md:"50%"}}
+              w={{ base: "30%", md: "50%" }}
               rounded={"md"}
             />
-            <Box pl="2%" >
-              <Heading fontSize={{base:"sm",sm:"md",md:"lg",lg:"xl"}} color="white">Geekbuying.com (clone) :-</Heading>
-              
+            <Box pl="2%">
+              <Heading
+                fontSize={{ base: "sm", sm: "md", md: "lg", lg: "xl" }}
+                color="white"
+              >
+                Geekbuying.com (clone) :-
+              </Heading>
+
               <Box py="1%">
-                <Text fontWeight={"bold"} fontSize={{base:"xs",sm:"sm",md:"md",lg:"lg"}} textAlign="start" textColor={"lightgrey"}>
-                Geekbuying leading online shop selling a wide range of consumer
-                electronic gadgets. Where users can from all over world.
+                <Text
+                  fontWeight={"bold"}
+                  fontSize={{ base: "xs", sm: "sm", md: "md", lg: "lg" }}
+                  textAlign="start"
+                  textColor={"lightgrey"}
+                >
+                  Geekbuying leading online shop selling a wide range of
+                  consumer electronic gadgets. Where users can from all over
+                  world.
                 </Text>
               </Box>
-              <Box py="1%" color={"whatsapp.100"} display="flex" gap="1%" alignItems={"center"}>
+              <Box
+                py="1%"
+                color={"whatsapp.100"}
+                display="flex"
+                gap="1%"
+                alignItems={"center"}
+              >
                 <Text>TECHSTACK'S :- </Text>
-                <Image src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png" w={{base:"5%" , md:"8%"}}/>
-                <Image src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" w={{base:"5%" , md:"8%"}}/>
-                <Image src="https://cdn-icons-png.flaticon.com/128/4726/4726005.png" w={{base:"5%" , md:"8%"}}/>
-                <Image src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/154/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png" w={{base:"5%" , md:"8%"}}/>
+                <Image
+                  src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png"
+                  w={{ base: "5%", md: "8%" }}
+                />
+                <Image
+                  src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png"
+                  w={{ base: "5%", md: "8%" }}
+                />
+                <Image
+                  src="https://cdn-icons-png.flaticon.com/128/4726/4726005.png"
+                  w={{ base: "5%", md: "8%" }}
+                />
+                <Image
+                  src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/154/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
+                  w={{ base: "5%", md: "8%" }}
+                />
               </Box>
               <Box
                 display={"flex"}
@@ -132,15 +203,29 @@ const Projects = () => {
                 width="40%"
               >
                 <Box cursor={"pointer"} rounded="90%">
-                  <Link href="https://dreamy-otter-4ee23d.netlify.app/" target={"_blank"}>
-                    <Button bg={"none"} _hover={{ bg: "none" }} className="text">
+                  <Link
+                    href="https://dreamy-otter-4ee23d.netlify.app/"
+                    target={"_blank"}
+                  >
+                    <Button
+                      bg={"none"}
+                      _hover={{ bg: "none" }}
+                      className="text"
+                    >
                       Live Link
                     </Button>
                   </Link>
                 </Box>
                 <Box cursor={"pointer"} rounded="50%">
-                  <Link href="https://github.com/harishpampana7/judicious-income-4437" target={"_blank"}>
-                    <Button bg={"none"} _hover={{ bg: "none" }} className="text">
+                  <Link
+                    href="https://github.com/harishpampana7/judicious-income-4437"
+                    target={"_blank"}
+                  >
+                    <Button
+                      bg={"none"}
+                      _hover={{ bg: "none" }}
+                      className="text"
+                    >
                       Github
                     </Button>
                   </Link>
@@ -152,7 +237,7 @@ const Projects = () => {
           <GridItem
             transition="all .2s ease-in-out"
             display={"flex"}
-            flexDir={{sm:"row",md:"row",lg:"row"}}
+            flexDir={{ sm: "row", md: "row", lg: "row" }}
             _hover={{ transform: "scale(0.95)" }}
             boxShadow="0px 50px 100px -20px rgba(50, 50, 93, 0.25), 0px 30px 60px -30px rgba(0, 0, 0, 0.3), inset 0px -2px 6px 0px rgba(10, 37, 64, 0.35)"
             p={"1%"}
@@ -163,25 +248,53 @@ const Projects = () => {
               src={Airtable}
               alt="orbitz"
               objectFit="scale-down"
-              w={{base:"30%",md:"50%"}}
+              w={{ base: "30%", md: "50%" }}
               rounded={"md"}
             />
-            <Box pl="2%" >
-              <Heading fontSize={{base:"sm",sm:"md",md:"lg",lg:"xl"}} color="white">Airtable.com (clone) :-</Heading>
-              
+            <Box pl="2%">
+              <Heading
+                fontSize={{ base: "sm", sm: "md", md: "lg", lg: "xl" }}
+                color="white"
+              >
+                Airtable.com (clone) :-
+              </Heading>
+
               <Box py="1%">
-                <Text fontWeight={"bold"} fontSize={{base:"xs",sm:"sm",md:"md",lg:"lg"}} textAlign="start" textColor={"lightgrey"}>
-                Airtable is a low-code platform for building collaborative apps.
-    Customize your workflow, collaborate, and achieve ambitious
-    outcomes.
+                <Text
+                  fontWeight={"bold"}
+                  fontSize={{ base: "xs", sm: "sm", md: "md", lg: "lg" }}
+                  textAlign="start"
+                  textColor={"lightgrey"}
+                >
+                  Airtable is a low-code platform for building collaborative
+                  apps. Customize your workflow, collaborate, and achieve
+                  ambitious outcomes.
                 </Text>
               </Box>
-              <Box py="1%" color={"whatsapp.100"} display="flex" gap="1%" alignItems={"center"}>
+              <Box
+                py="1%"
+                color={"whatsapp.100"}
+                display="flex"
+                gap="1%"
+                alignItems={"center"}
+              >
                 <Text>TECHSTACK'S :- </Text>
-                <Image src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png" w={{base:"5%" , md:"8%"}}/>
-                <Image src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" w={{base:"5%" , md:"8%"}}/>
-                <Image src="https://cdn-icons-png.flaticon.com/128/4726/4726005.png" w={{base:"5%" , md:"8%"}}/>
-                <Image src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/154/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png" w={{base:"5%" , md:"8%"}}/>
+                <Image
+                  src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png"
+                  w={{ base: "5%", md: "8%" }}
+                />
+                <Image
+                  src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png"
+                  w={{ base: "5%", md: "8%" }}
+                />
+                <Image
+                  src="https://cdn-icons-png.flaticon.com/128/4726/4726005.png"
+                  w={{ base: "5%", md: "8%" }}
+                />
+                <Image
+                  src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/154/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
+                  w={{ base: "5%", md: "8%" }}
+                />
               </Box>
               <Box
                 display={"flex"}
@@ -193,14 +306,25 @@ const Projects = () => {
               >
                 <Box cursor={"pointer"} rounded="90%">
                   <Link href="https://stata-web.vercel.app/" target={"_blank"}>
-                    <Button bg={"none"} _hover={{ bg: "none" }} className="text">
+                    <Button
+                      bg={"none"}
+                      _hover={{ bg: "none" }}
+                      className="text"
+                    >
                       Live Link
                     </Button>
                   </Link>
                 </Box>
                 <Box cursor={"pointer"} rounded="50%">
-                  <Link href="https://github.com/Bipin579/afraid-substance-3392" target={"_blank"}>
-                    <Button bg={"none"} _hover={{ bg: "none" }} className="text">
+                  <Link
+                    href="https://github.com/Bipin579/afraid-substance-3392"
+                    target={"_blank"}
+                  >
+                    <Button
+                      bg={"none"}
+                      _hover={{ bg: "none" }}
+                      className="text"
+                    >
                       Github
                     </Button>
                   </Link>
@@ -212,7 +336,7 @@ const Projects = () => {
           <GridItem
             transition="all .2s ease-in-out"
             display={"flex"}
-            flexDir={{sm:"row",md:"row",lg:"row"}}
+            flexDir={{ sm: "row", md: "row", lg: "row" }}
             _hover={{ transform: "scale(0.95)" }}
             boxShadow="0px 50px 100px -20px rgba(50, 50, 93, 0.25), 0px 30px 60px -30px rgba(0, 0, 0, 0.3), inset 0px -2px 6px 0px rgba(10, 37, 64, 0.35)"
             p={"1%"}
@@ -223,25 +347,53 @@ const Projects = () => {
               src={paytm_Mall1}
               alt="orbitz"
               objectFit="scale-down"
-              w={{base:"30%",md:"50%"}}
+              w={{ base: "30%", md: "50%" }}
               rounded={"md"}
             />
-            <Box pl="2%" >
-              <Heading fontSize={{base:"sm",sm:"md",md:"lg",lg:"xl"}} color="white">Paytmall.com (clone) :-</Heading>
-              
+            <Box pl="2%">
+              <Heading
+                fontSize={{ base: "sm", sm: "md", md: "lg", lg: "xl" }}
+                color="white"
+              >
+                Paytmall.com (clone) :-
+              </Heading>
+
               <Box py="1%">
-                <Text fontWeight={"bold"} fontSize={{base:"xs",sm:"sm",md:"md",lg:"lg"}} textAlign="start" textColor={"lightgrey"}>
-                Paytm Mall is digital shopping place where any body buy all the
-    products which need through online no need to move any other
-    place.
+                <Text
+                  fontWeight={"bold"}
+                  fontSize={{ base: "xs", sm: "sm", md: "md", lg: "lg" }}
+                  textAlign="start"
+                  textColor={"lightgrey"}
+                >
+                  Paytm Mall is digital shopping place where any body buy all
+                  the products which need through online no need to move any
+                  other place.
                 </Text>
               </Box>
-              <Box py="1%" color={"whatsapp.100"} display="flex" gap="1%" alignItems={"center"}>
+              <Box
+                py="1%"
+                color={"whatsapp.100"}
+                display="flex"
+                gap="1%"
+                alignItems={"center"}
+              >
                 <Text>TECHSTACK'S :- </Text>
-                <Image src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png" w={{base:"5%" , md:"8%"}}/>
-                <Image src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" w={{base:"5%" , md:"8%"}}/>
-                <Image src="https://cdn-icons-png.flaticon.com/128/4726/4726005.png" w={{base:"5%" , md:"8%"}}/>
-                <Image src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/154/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png" w={{base:"5%" , md:"8%"}}/>
+                <Image
+                  src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png"
+                  w={{ base: "5%", md: "8%" }}
+                />
+                <Image
+                  src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png"
+                  w={{ base: "5%", md: "8%" }}
+                />
+                <Image
+                  src="https://cdn-icons-png.flaticon.com/128/4726/4726005.png"
+                  w={{ base: "5%", md: "8%" }}
+                />
+                <Image
+                  src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/154/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
+                  w={{ base: "5%", md: "8%" }}
+                />
               </Box>
               <Box
                 display={"flex"}
@@ -252,15 +404,29 @@ const Projects = () => {
                 width="40%"
               >
                 <Box cursor={"pointer"} rounded="90%">
-                  <Link href="https://paytm-mall-clone-eight.vercel.app/" target={"_blank"}>
-                    <Button bg={"none"} _hover={{ bg: "none" }} className="text">
+                  <Link
+                    href="https://paytm-mall-clone-eight.vercel.app/"
+                    target={"_blank"}
+                  >
+                    <Button
+                      bg={"none"}
+                      _hover={{ bg: "none" }}
+                      className="text"
+                    >
                       Live Link
                     </Button>
                   </Link>
                 </Box>
                 <Box cursor={"pointer"} rounded="50%">
-                  <Link href="https://github.com/Bipin579/tasteful-pump-9576" target={"_blank"}>
-                    <Button bg={"none"} _hover={{ bg: "none" }} className="text">
+                  <Link
+                    href="https://github.com/Bipin579/tasteful-pump-9576"
+                    target={"_blank"}
+                  >
+                    <Button
+                      bg={"none"}
+                      _hover={{ bg: "none" }}
+                      className="text"
+                    >
                       Github
                     </Button>
                   </Link>
@@ -268,12 +434,6 @@ const Projects = () => {
               </Box>
             </Box>
           </GridItem>
-
-          
-
-
-
-         
         </Grid>
       </Box>
     </Box>
@@ -282,8 +442,8 @@ const Projects = () => {
 
 export default Projects;
 
-
-{/* <GridItem
+{
+  /* <GridItem
 transition="all .2s ease-in-out"
 _hover={{ transform: "scale(0.9)" }}
 w="100%"
@@ -403,4 +563,5 @@ bg={"white"}
     place.
   </Text>
 </Box>
-</GridItem> */}
+</GridItem> */
+}

@@ -4,7 +4,7 @@ import {
   HStack,
   IconButton,
   useDisclosure,
-  useColorModeValue,
+
   Stack,
   Image,
 } from "@chakra-ui/react";
@@ -97,8 +97,10 @@ export default function Navbar() {
                   smooth={true}
                   offset={-70}
                   duration={500}
+                  transition="all .2s ease-in-out"
+                  _hover={{ transform: "scale(0.9)" }}
                 >
-                  {link.title}
+                {link.title}
                 </Link>
               ))}
               <a

@@ -2,9 +2,7 @@ import {
   Box,
   Button,
   Heading,
-  HStack,
   IconButton,
-  Image,
   Text,
   VStack,
   WrapItem,
@@ -12,7 +10,6 @@ import {
 import { MdPhone, MdEmail, MdLocationOn } from "react-icons/md";
 import { BsGithub, BsLinkedin,BsInstagram } from "react-icons/bs";
 import React from "react";
-import mail from "../utils/mail.png";
 import Animation from "../utils/lottie/Chatting_01 (1).json";
 import Lottie from "lottie-react";
 
@@ -65,7 +62,7 @@ const Contact = () => {
               </Text>
               <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }}>
                 <VStack pl={0} spacing={3} alignItems="flex-start">
-                  <a href={"tel: 8368297680"}>
+                  <a href={"tel: 7366983001"}>
                     <Button
                       size="md"
                       height="48px"
@@ -79,7 +76,7 @@ const Contact = () => {
                       +91-7366983001
                     </Button>
                   </a>
-                  <a href={"mailto: bipin579@gmail.com"}>
+                  <a href={"mailto: biping579@gmail.com"}>
                     <Button
                       size="md"
                       height="48px"
@@ -90,7 +87,7 @@ const Contact = () => {
                       _hover={{ border: "2px solid #1C6FEB" }}
                       leftIcon={<MdEmail color="#0CC4EA" size="20px" />}
                     >
-                      bipin579@gmail.com
+                      biping579@gmail.com
                     </Button>
                   </a>
                   <Button
