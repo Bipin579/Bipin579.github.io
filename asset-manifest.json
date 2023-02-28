@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4a4d637f.css",
-    "main.js": "/static/js/main.5add2bfd.js",
+    "main.js": "/static/js/main.c7c9fc6a.js",
     "static/media/Airtable.png": "/static/media/Airtable.86f6c670267757720a5e.png",
     "static/media/orbitz.png": "/static/media/orbitz.cd302695a575e05a22b7.png",
     "static/media/paytm_Mall1.png": "/static/media/paytm_Mall1.bc44ef3954f5f79c7b99.png",
@@ -10,10 +10,10 @@
     "static/media/Bipin.png": "/static/media/Bipin.0c2d2042bd679038fc3a.png",
     "index.html": "/index.html",
     "main.4a4d637f.css.map": "/static/css/main.4a4d637f.css.map",
-    "main.5add2bfd.js.map": "/static/js/main.5add2bfd.js.map"
+    "main.c7c9fc6a.js.map": "/static/js/main.c7c9fc6a.js.map"
   },
   "entrypoints": [
     "static/css/main.4a4d637f.css",
-    "static/js/main.5add2bfd.js"
+    "static/js/main.c7c9fc6a.js"
   ]
 }
