@@ -4,17 +4,18 @@ import {
   HStack,
   IconButton,
   useDisclosure,
-
   Stack,
   Image,
 } from "@chakra-ui/react";
+
+import Project from "../utils/Bipin_Kumar_Resume.pdf";
 
 import { Link } from "react-scroll";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import Logo from "../utils/Bipin.png";
 const Links = [
   { title: "Home", id: "Home" },
-  { title: "About", id: "About" },
+  { title: "AboutMe", id: "About" },
   { title: "Skills", id: "Skills" },
   { title: "Projects", id: "Projects" },
   { title: "Contact", id: "Contact" },
@@ -38,6 +39,8 @@ const NavLink = ({ children }) => (
 
 export default function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
+
+
 
   return (
     <Box bg="#347FCD" pos={"sticky"} top="0" zIndex={10}>
@@ -100,12 +103,17 @@ export default function Navbar() {
                   transition="all .2s ease-in-out"
                   _hover={{ transform: "scale(0.9)" }}
                 >
-                {link.title}
+                  {link.title}
                 </Link>
               ))}
               <a
-                href="https://drive.google.com/file/d/1-pt3hhNlb_95k2NZCbouelh2FPeDgXe5/view?usp=share_link"
-                target={"_blank"}
+                href={Project}
+                download={"Bipin_Singh_Resume.pdf"}
+                onClick={() => {
+                  window.open(
+                    "https://drive.google.com/file/d/1-pt3hhNlb_95k2NZCbouelh2FPeDgXe5/view?usp=share_link","_blank"
+                  );
+                }}
               >
                 Resume
               </a>
@@ -122,8 +130,13 @@ export default function Navbar() {
                 </Link>
               ))}
               <a
-                href="https://drive.google.com/file/d/1-pt3hhNlb_95k2NZCbouelh2FPeDgXe5/view?usp=share_link"
-                target={"_blank"}
+                href={Project}
+                download={"Bipin_Singh_Resume.pdf"}
+                onClick={() => {
+                  window.open(
+                    "https://drive.google.com/file/d/1-pt3hhNlb_95k2NZCbouelh2FPeDgXe5/view?usp=share_link","_blank"
+                  );
+                }}
               >
                 Resume
               </a>

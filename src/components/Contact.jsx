@@ -128,9 +128,9 @@ const Contact = () => {
               bg="white"
               aria-label="facebook"
               variant="ghost"
-              size="lg"
+              size="md"
               isRound={true}
-              _hover={{ bg: "#0bf0c1" }}
+              _hover={{ bg: "#347fcd" }}
               icon={<BsLinkedin size="28px" />}
             />
           </a>
@@ -140,9 +140,9 @@ const Contact = () => {
               bg="white"
               aria-label="github"
               variant="ghost"
-              size="lg"
+              size="md"
               isRound={true}
-              _hover={{ bg: "#0bf0c1" }}
+              _hover={{ bg: "#347fcd" }}
               icon={<BsGithub size="28px" />}
             />
           </a>
@@ -152,9 +152,9 @@ const Contact = () => {
               bg="white"
               aria-label="github"
               variant="ghost"
-              size="lg"
+              size="md"
               isRound={true}
-              _hover={{ bg: "#0bf0c1" }}
+              _hover={{ bg: "#347fcd" }}
               icon={<BsInstagram size="28px" />}
             />
           </a>
