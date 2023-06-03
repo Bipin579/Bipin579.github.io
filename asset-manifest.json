@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.0942348f.css",
-    "main.js": "/static/js/main.2dfcb791.js",
+    "main.js": "/static/js/main.aa3efa6c.js",
     "static/media/airbnb.png": "/static/media/airbnb.d861db86b411b1736c0a.png",
     "static/media/dell.png": "/static/media/dell.4e09bd138c8b4a72c5e4.png",
     "static/media/Airtable.png": "/static/media/Airtable.86f6c670267757720a5e.png",
     "static/media/orbitz.png": "/static/media/orbitz.cd302695a575e05a22b7.png",
     "static/media/paytm_Mall1.png": "/static/media/paytm_Mall1.bc44ef3954f5f79c7b99.png",
-    "static/media/Bipin_Kumar_Resume.pdf": "/static/media/Bipin_Kumar_Resume.16791fcf4f8106fc7201.pdf",
+    "static/media/Bipin_Kumar_Resume.pdf": "/static/media/Bipin_Kumar_Resume.8d516a2b76b99fef479d.pdf",
     "static/media/geekbuying.png": "/static/media/geekbuying.edc1da94f872c074af3f.png",
     "static/media/bg-image.jpg": "/static/media/bg-image.8820aa814c66777ad201.jpg",
     "static/media/Bipin.png": "/static/media/Bipin.0c2d2042bd679038fc3a.png",
     "index.html": "/index.html",
     "static/media/scroll.svg": "/static/media/scroll.303f33a50352aea260bc42ff6d287c1d.svg",
     "main.0942348f.css.map": "/static/css/main.0942348f.css.map",
-    "main.2dfcb791.js.map": "/static/js/main.2dfcb791.js.map"
+    "main.aa3efa6c.js.map": "/static/js/main.aa3efa6c.js.map"
   },
   "entrypoints": [
     "static/css/main.0942348f.css",
-    "static/js/main.2dfcb791.js"
+    "static/js/main.aa3efa6c.js"
   ]
 }
