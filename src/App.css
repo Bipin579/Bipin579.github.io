@@ -3,6 +3,11 @@
 
 *{
   font-family: "Philosopher";
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+  
 }
 
 .text {
@@ -49,4 +54,43 @@
   text-shadow: 1px -1px 0 grey, 1px -2px 0 grey, 1px -3px 0 grey,
     1px -4px 0 grey, 1px -5px 0 grey, 1px -6px 0 grey, 1px -7px 0 grey,
     1px -8px 0 grey, 5px -13px 15px black, 5px -13px 25px #808080;
+}
+
+
+/* body{
+  overflow-x: hidden;
+  
+} */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: #2F3847;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 15px;
+  background:linear-gradient(cyan,blue,purple);
+  border-radius: 10px;
+}
+
+
+.skill-box {
+  transition: all 0.2s ease-in-out;
+}
+
+.skill-box:hover {
+  animation: pulse 0.5s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
 }

@@ -9,19 +9,26 @@ import {
 } from "@chakra-ui/react";
 import { MdPhone, MdEmail, MdLocationOn } from "react-icons/md";
 import { BsGithub, BsLinkedin,BsInstagram } from "react-icons/bs";
-import React from "react";
+import React, { useEffect } from "react";
 import Animation from "../utils/lottie/Chatting_01 (1).json";
 import Lottie from "lottie-react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import bg from "../utils/bg-image.jpg"
 
 const Contact = () => {
+  useEffect(() => {
+    AOS.init({ delay: 200 });
+  }, []);
   return (
-    <Box m="auto" bg="#2F3847" id="Contact" py={"5%"}>
+    <Box m="auto" bgImage={bg}   id="Contact" py={"5%"} boxSizing="border-box">
       <Box
-        py={10}
+        // pb={10}
         display="flex"
         flexDir={"column"}
         justifyContent="center"
         m={"auto"}
+        maxW="5xl"
         // bgColor={"#EBF7FC"}
       >
         <Text
@@ -31,6 +38,7 @@ const Contact = () => {
           // color={"#2892D4"}
           textAlign="center"
           className="text"
+          data-aos="fade-right"
         >
           Contact Me
         </Text>
@@ -56,13 +64,13 @@ const Contact = () => {
         >
           <WrapItem>
             <Box>
-              <Heading color="whitesmoke">Contact Details</Heading>
-              <Text mt={{ sm: 3, md: 3, lg: 5 }} color="#BBBBBB">
+              <Heading color="whitesmoke" data-aos="zoom-out-right">Contact Details</Heading>
+              <Text mt={{ sm: 3, md: 3, lg: 5 }} color="#BBBBBB" data-aos="zoom-out-right">
                 Connecting with new people is always exciting, let's connect!
               </Text>
               <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }}>
                 <VStack pl={0} spacing={3} alignItems="flex-start">
-                  <a href={"tel: 7366983001"}>
+                  <a m="auto" href={"tel: 7366983001"}>
                     <Button
                       size="md"
                       height="48px"
@@ -72,11 +80,12 @@ const Contact = () => {
                       color="#DCE2FF"
                       _hover={{ border: "2px solid #1C6FEB" }}
                       leftIcon={<MdPhone color="#0CC4EA" size="20px" />}
+                      data-aos="zoom-out-right"
                     >
                       +91-7366983001
                     </Button>
                   </a>
-                  <a href={"mailto: biping579@gmail.com"}>
+                  <a m="auto" href={"mailto: biping579@gmail.com"}>
                     <Button
                       size="md"
                       height="48px"
@@ -86,6 +95,7 @@ const Contact = () => {
                       color="#DCE2FF"
                       _hover={{ border: "2px solid #1C6FEB" }}
                       leftIcon={<MdEmail color="#0CC4EA" size="20px" />}
+                      data-aos="zoom-out-right"
                     >
                       biping579@gmail.com
                     </Button>
@@ -99,6 +109,7 @@ const Contact = () => {
                     color="#DCE2FF"
                     _hover={{ border: "2px solid #1C6FEB" }}
                     leftIcon={<MdLocationOn color="#0CC4EA" size="20px" />}
+                    data-aos="zoom-out-right"
                   >
                     Aurangrabad, Bihar
                   </Button>
@@ -108,21 +119,27 @@ const Contact = () => {
           </WrapItem>
         </Box>
         <Box
-          width={["full", "full", "full", "full", "50%", "50%"]}
-          display="flex"
-          alignItems={"center"}
-          flexDirection="row"
-          pt={13}
+          width={["80%", "80%", "80%", "100%", "100%", "100%",]}
+          display={{base:"none",lg:"block"}}
+          m="auto"
+          // display="flex"
+          // alignItems={"center"}
+          // flexDirection="row"
+          // pt={{lg:13 ,mb:5}}
+          data-aos="zoom-out-left"
+          // pt={{ base: "0px", sm: "0px", md: "0px", lg: "70px", xl: "90px", xxl: "100px" }}
+          // border="1px solid red"
         >
           <Lottie
             animationData={Animation}
-            style={{ width: "70%", margin: "auto" }}
+            style={{ width: "80%", margin: "auto"}}
           />
         </Box>
-        <Box  display={"flex"} flexDir={["row","row","row","column","column"]} gap={5} m="auto" mt={{ base: 5, lg: 10, md: 10 }} spacing={5} px={5}>
-          <a
+        <Box  w="max-content" display={"flex"} gap={"20px"} flexDir={{md:"row",lg:"column"}}  m="auto" mt={{ base: 5, lg: 10, md: 10 }}  px={5}>
+          <a m="auto"
             href="https://www.linkedin.com/in/bipin-singh2323/"
             target="_blank"
+            
           >
             <IconButton
               bg="white"
@@ -135,26 +152,26 @@ const Contact = () => {
             />
           </a>
 
-          <a href="https://github.com/Bipin579" target="_blank">
+          <a m="auto" href="https://github.com/Bipin579" target="_blank" >
             <IconButton
               bg="white"
               aria-label="github"
               variant="ghost"
               size="md"
               isRound={true}
-              _hover={{ bg: "#347fcd" }}
+              _hover={{ bg: "#adadad" }}
               icon={<BsGithub size="28px" />}
             />
           </a>
 
-          <a href="https://www.instagram.com/biping579/" target="_blank">
+          <a m="auto" href="https://www.instagram.com/biping579/" target="_blank" >
             <IconButton
               bg="white"
               aria-label="github"
               variant="ghost"
               size="md"
               isRound={true}
-              _hover={{ bg: "#347fcd" }}
+              _hover={{ bg: "#f241c3" }}
               icon={<BsInstagram size="28px" />}
             />
           </a>

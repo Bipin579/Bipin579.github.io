@@ -1,4 +1,4 @@
-import { Box, Divider } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import "./App.css";
 import About from "./components/About";
 import Calender from "./components/Calender";
@@ -7,72 +7,33 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import AnimatedCursor from "react-animated-cursor";
+import { ReactComponent as MySVG } from "./scroll.svg";
+import ScrollToTop from "react-scroll-to-top";
 
 function App() {
   return (
-    <Box className="App">
-      {/* <h1 style={{ fontWeight: "bold", color: "red" }}>Hey there Welcome i am coming soon....</h1> */}
+    <Box className="App" >
+            <AnimatedCursor
+        innerSize={15}
+        outerSize={15}
+        color="1,183,214"
+        outerAlpha={0.1}
+        innerScale={0.7}
+        outerScale={1.2}
+      />
+
+      <ScrollToTop smooth component={<MySVG />} />
       <Navbar />
       <Hero />
-      <hr
-        style={{
-          border: "3px solid #347FCD",
-          width: "40%",
-          margin: "auto",
-          borderRadius: "10px",
-          bg:"#2F3847"
-        }}
-      />
       <About />
-      <hr
-        style={{
-          border: "3px solid #347FCD",
-          width: "40%",
-          margin: "auto",
-          borderRadius: "10px",
-          bg:"#2F3847"
-        }}
-      />
       <Skills />
-      <hr
-        style={{
-          border: "3px solid #347FCD",
-          width: "40%",
-          margin: "auto",
-          borderRadius: "10px",
-          bg:"#2F3847"
-        }}
-      />
+
       <Projects />
-      <hr
-        style={{
-          border: "3px solid #347FCD",
-          width: "40%",
-          margin: "auto",
-          borderRadius: "10px",
-          bg:"#2F3847"
-        }}
-      />
+
       <Calender />
-      <hr
-        style={{
-          border: "3px solid #347FCD",
-          width: "40%",
-          margin: "auto",
-          borderRadius: "10px",
-          bg:"#2F3847"
-        }}
-      />
+
       <Contact />
-      <hr
-        style={{
-          border: "3px solid #347FCD",
-          width: "40%",
-          margin: "auto",
-          borderRadius: "10px",
-          bg:"#2F3847"
-        }}
-      />
     </Box>
   );
 }

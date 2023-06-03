@@ -6,7 +6,9 @@ import {
   useDisclosure,
   Stack,
   Image,
+  Button,
 } from "@chakra-ui/react";
+import "./navbar.css";
 
 import Project from "../utils/Bipin_Kumar_Resume.pdf";
 
@@ -20,30 +22,19 @@ const Links = [
   { title: "Projects", id: "Projects" },
   { title: "Contact", id: "Contact" },
 ];
-const NavLink = ({ children }) => (
-  <Link
-    px={2}
-    py={1}
-    rounded={"md"}
-    color="white"
-    _hover={{
-      textDecoration: "none",
-      bg: "white",
-      color: "black",
-    }}
-    href={"#"}
-  >
-    {children}
-  </Link>
-);
 
 export default function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
-
-
   return (
-    <Box bg="#347FCD" pos={"sticky"} top="0" zIndex={10}>
+    <Box
+      bg="#022754"
+      pos={"sticky"}
+      top="0"
+      zIndex={10}
+      boxShadow={"0px 15px 10px -15px #111"}
+      boxSizing="border-box"
+    >
       <Box
         // bg="#347FCD"
         maxW={"6xl"}
@@ -93,12 +84,13 @@ export default function Navbar() {
             >
               {Links.map((link, index) => (
                 <Link
+                  className="nav-link"
                   to={link.id}
                   color="white"
                   key={index}
                   spy={true}
                   smooth={true}
-                  offset={-70}
+                  offset={-77}
                   duration={500}
                   transition="all .2s ease-in-out"
                   _hover={{ transform: "scale(0.9)" }}
@@ -106,17 +98,31 @@ export default function Navbar() {
                   {link.title}
                 </Link>
               ))}
-              <a
-                href={Project}
-                download={"Bipin_Singh_Resume.pdf"}
-                onClick={() => {
-                  window.open(
-                    "https://drive.google.com/file/d/1-pt3hhNlb_95k2NZCbouelh2FPeDgXe5/view?usp=share_link","_blank"
-                  );
+              <Button
+                cursor={"pointer"}
+                color={"white"}
+                rounded="md"
+                bgGradient="linear(to-r,cyan.400,blue.500)"
+                _hover={{
+                  bg: "blue.500",
                 }}
+                my="5%"
+                size={"sm"}
               >
-                Resume
-              </a>
+                <a
+                  href={Project}
+                  download={"Bipin_Singh_Resume.pdf"}
+                  style={{ color: "white" }}
+                  onClick={() => {
+                    window.open(
+                      "https://drive.google.com/file/d/1taaLGgK1tS9z5zVAdSthy_fa4R7eYuPf/view",
+                      "_blank"
+                    );
+                  }}
+                >
+                  Resume
+                </a>
+              </Button>
             </HStack>
           </HStack>
         </Flex>
@@ -125,16 +131,24 @@ export default function Navbar() {
           <Box pb={4} display={{ md: "none" }}>
             <Stack as={"nav"} spacing={4}>
               {Links.map((link, index) => (
-                <Link to={link.id} color="white" key={index} cursor="pointer">
+                <Link
+                  to={link.id}
+                  color="white"
+                  key={index}
+                  cursor="pointer"
+                  className="nav-link"
+                >
                   {link.title}
                 </Link>
               ))}
               <a
                 href={Project}
                 download={"Bipin_Singh_Resume.pdf"}
+                style={{ color: "white" }}
                 onClick={() => {
                   window.open(
-                    "https://drive.google.com/file/d/1-pt3hhNlb_95k2NZCbouelh2FPeDgXe5/view?usp=share_link","_blank"
+                    "https://drive.google.com/file/d/1taaLGgK1tS9z5zVAdSthy_fa4R7eYuPf/view",
+                    "_blank"
                   );
                 }}
               >
